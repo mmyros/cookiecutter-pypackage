@@ -14,6 +14,10 @@
 .. image:: https://readthedocs.org/projects/{{ cookiecutter.project_slug | replace("_", "-") }}/badge/?version=latest
         :target: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
+
+.. image:: https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/branch/master/graph/badge.svg?token=CQMHJRNC9I
+      :target: https://codecov.io/gh/mmyros/bayes-window
+
 {%- endif %}
 
 
