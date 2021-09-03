@@ -17,7 +17,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        pip install cookiecutter
+        pip install cookiecutter pytest
     - name: test
       run: |
         cookiecutter . --no-input
