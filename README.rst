@@ -2,17 +2,9 @@
 Cookiecutter PyPackage
 ======================
 
-.. image:: https://pyup.io/repos/github/audreyfeldroy/cookiecutter-pypackage/shield.svg
-    :target: https://pyup.io/repos/github/audreyfeldroy/cookiecutter-pypackage/
+.. image:: https://pyup.io/repos/github/mmyros/cookiecutter-pypackage/shield.svg
+    :target: https://pyup.io/repos/github/mmyros/cookiecutter-pypackage/
     :alt: Updates
-
-.. image:: https://travis-ci.org/audreyfeldroy/cookiecutter-pypackage.svg?branch=master
-    :target: https://travis-ci.org/github/audreyfeldroy/cookiecutter-pypackage
-    :alt: Build Status
-
-.. image:: https://readthedocs.org/projects/cookiecutter-pypackage/badge/?version=latest
-    :target: https://cookiecutter-pypackage.readthedocs.io/en/latest/?badge=latest
-    :alt: Documentation Status
 
 Cookiecutter_ template for a Python package.
 
@@ -36,17 +28,10 @@ Features
 Build Status
 -------------
 
-Linux:
 
-.. image:: https://img.shields.io/travis/audreyfeldroy/cookiecutter-pypackage.svg
-    :target: https://travis-ci.org/audreyfeldroy/cookiecutter-pypackage
-    :alt: Linux build status on Travis CI
+.. image:: https://github.com/mmyros/cookiecutter-pypackage/actions/workflows/pytest.yaml/badge.svg
+        :target: https://github.com/mmyros/cookiecutter-pypackage/actions/workflows/pytest.yaml/badge.svg
 
-Windows:
-
-.. image:: https://ci.appveyor.com/api/projects/status/github/audreyr/cookiecutter-pypackage?branch=master&svg=true
-    :target: https://ci.appveyor.com/project/audreyr/cookiecutter-pypackage/branch/master
-    :alt: Windows build status on Appveyor
 
 Quickstart
 ----------
