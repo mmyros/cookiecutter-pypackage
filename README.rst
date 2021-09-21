@@ -2,10 +2,6 @@
 Cookiecutter PyPackage
 ======================
 
-.. image:: https://pyup.io/repos/github/mmyros/cookiecutter-pypackage/shield.svg
-    :target: https://pyup.io/repos/github/mmyros/cookiecutter-pypackage/
-    :alt: Updates
-
 Cookiecutter_ template for a Python package.
 
 * GitHub repo: https://github.com/audreyfeldroy/cookiecutter-pypackage/
