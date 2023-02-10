@@ -17,7 +17,12 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
-        pip install cookiecutter pytest tox
+        pip install cookiecutter pytest tox pytest-cov
     - name: test
       run: |
-        tox
+        pytest --cov {{cookiecutter.project_slug}} --cov-report html --cov-report xml:coverage.xml
+    - name: Run coverage
+      run: |
+        coverage report
+        coverage xml
+    - uses: codecov/codecov-action@v1        
